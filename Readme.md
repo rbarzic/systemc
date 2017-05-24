@@ -7,7 +7,16 @@ Tested on Ubuntu 16.04.2  "Xenial" with SustemC 2.3.1a
 
 ## Setup
 
-The environment variable SYSTEMC_HOME must be set to point to the Systemc installation folder
+The environment variable SYSTEMC_HOME must be set to point to the Systemc installation folder.
+
+For example
+
+```
+export SYSTEMC_HOME=/opt/systemc/2.3.1a
+
+```
+
+
 
 ##  hello_world
 
@@ -28,6 +37,45 @@ make run
 
 
 Code from http://www.asic-world.com/systemc/first1.html#Introduction
+
+### Compilation
+
+```
+make comp
+```
+
+### Execution
+
+```
+make run
+```
+
+### Waveform visualization
+
+Requires gtkwave
+
+```
+make wave
+```
+
+
+# SystemC-AMS example(s)
+
+
+The environment variables SYSTEMC_HOME and SYSTEMC_AMS_HOME must be set to point to the SystemC/SystemC-AMS installation folders.
+
+For example
+
+```
+export SYSTEMC_HOME=/opt/systemc/2.3.1a
+export SYSTEMC_AMS_HOME=/opt/systemc-ams/poc2.1
+
+```
+
+
+## voltage-divider-eln
+
+Code from https://github.com/Mulan-94/systemc-ams
 
 ### Compilation
 
