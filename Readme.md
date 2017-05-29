@@ -44,6 +44,19 @@ make run  # Simulation
 make wave # Lauch Gtkwave
 ```
 
+## And2 gate
+
+Code written following https://www.youtube.com/watch?v=NCFxBGLB5xs&list=PLcvQHr8v8MQLj9tCYyOw44X1PLisEsX-J&index=1
+(code from tutorial does not seem to ba available anymore)
+
+### Compilation/Simulation
+
+```
+make comp # Compilation
+make run  # Simulation
+make wave # Lauch Gtkwave
+```
+
 
 
 # SystemC-AMS example(s)
