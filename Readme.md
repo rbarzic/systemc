@@ -3,7 +3,7 @@
 Various SystemC examples form the net, sometimes fixed to run correctly with the latest SystemC version.
 Also always provided with suitable makefiles.
 
-Tested on Ubuntu 16.04.2  "Xenial" with SustemC 2.3.1a
+Tested on Ubuntu 16.04.2  "Xenial" with SystemC 2.3.1a
 
 ## Setup
 
@@ -60,6 +60,11 @@ make wave
 
 
 # SystemC-AMS example(s)
+
+Various SystemC examples from the net, sometimes fixed to run correctly with the latest SystemC version.
+Also always provided with suitable makefiles.
+
+Tested on Ubuntu 16.04.2  "Xenial" with SystemC 2.3.1a, SystemC POC ("Proof of concept") 2.1
 
 
 The environment variables SYSTEMC_HOME and SYSTEMC_AMS_HOME must be set to point to the SystemC/SystemC-AMS installation folders.
