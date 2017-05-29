@@ -22,41 +22,28 @@ export SYSTEMC_HOME=/opt/systemc/2.3.1a
 
 Code from http://www.asic-world.com/systemc/first1.html#Introduction
 
-### Compilation
+### Compilation/Simulation
 
 ```
-make comp
+make comp # Compilation
+make run  # Simulation
 ```
 
-### Execution
 
-```
-make run
-```
 ## First counter
 
 
 Code from http://www.asic-world.com/systemc/first1.html#Introduction
 
-### Compilation
+
+### Compilation/Simulation
 
 ```
-make comp
+make comp # Compilation
+make run  # Simulation
+make wave # Lauch Gtkwave
 ```
 
-### Execution
-
-```
-make run
-```
-
-### Waveform visualization
-
-Requires gtkwave
-
-```
-make wave
-```
 
 
 # SystemC-AMS example(s)
@@ -82,22 +69,11 @@ export SYSTEMC_AMS_HOME=/opt/systemc-ams/poc2.1
 
 Code from https://github.com/Mulan-94/systemc-ams
 
-### Compilation
+### Compilation/Simulation
 
 ```
-make comp
+make comp # Compilation
+make run  # Simulation
+make wave # Lauch Gtkwave
 ```
 
-### Execution
-
-```
-make run
-```
-
-### Waveform visualization
-
-Requires gtkwave
-
-```
-make wave
-```
