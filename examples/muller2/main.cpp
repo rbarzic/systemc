@@ -43,6 +43,7 @@ int sc_main (int argc, char* argv[]) {
     a = 0;
     b = 1;
 
+
     sc_start(10,SC_NS);
     a = 0;
     b = 0;
@@ -63,6 +64,8 @@ int sc_main (int argc, char* argv[]) {
     sc_start(10,SC_NS);
 
     sc_close_vcd_trace_file(wf);
+
+
     return 0;// Terminate simulation
 
 
