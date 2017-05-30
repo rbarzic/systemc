@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Tue May 30 07:36:09 2017
+[*]
+[dumpfile] "/home/roba/perso/github/systemc/examples-ams/comparator-tdf/comparator-tdf.vcd"
+[dumpfile_mtime] "Tue May 30 07:34:21 2017"
+[dumpfile_size] 27748042
+[savefile] "/home/roba/perso/github/systemc/examples-ams/comparator-tdf/comparator-tdf.gtkw"
+[timestart] 1614700000
+[size] 1920 1172
+[pos] -2 -29
+*-27.464394 2355010000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 204
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 358
+@10028
+SystemC_AMS.vn
+@20000
+-
+-
+@10029
+SystemC_AMS.vp
+@20000
+-
+-
+@28
+SystemC_AMS.z
+[pattern_trace] 1
+[pattern_trace] 0
