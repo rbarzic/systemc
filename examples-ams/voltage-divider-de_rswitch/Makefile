@@ -16,7 +16,7 @@ run:
 
 
 wave:
-	gtkwave voltage-divider-eln.vcd  &
+	gtkwave gtkwave.gtkw   &
 
 all: comp run
 
