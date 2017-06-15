@@ -32,7 +32,7 @@ SCA_TDF_MODULE( diode_ctrl_tdf ) {
     // SCA_CTOR( diode_ctrl_tdf ) : vint("vint"), vout("vout"), gain("gain"), vref("vref"),
     //     sca_core::sca_time Tm_ = sca_core::sca_time(1, sc_core::SC_NS)){}
 
-    diode_ctrl_tdf( sc_core::sc_module_name nm, sca_core::sca_time Tm_ = sca_core::sca_time(1, sc_core::SC_NS)) :
+    diode_ctrl_tdf( sc_core::sc_module_name nm, sca_core::sca_time Tm_ = sca_core::sca_time(10, sc_core::SC_NS)) :
         vdiode("vdiode"),
         Tm(Tm_) {}
 

@@ -22,8 +22,8 @@ int sc_main (int argc, char* argv[])
 
     sc_core::sc_signal<bool> diodectrl;
 
-    sca_eln::sca_vsource src("src",0.0, 0.0, 3.3, 1e3);
-    src.set_timestep(1, sc_core::SC_NS);
+    sca_eln::sca_vsource src("src",0.0, 0.0, 3.3, 1e5);
+    src.set_timestep(10, sc_core::SC_NS);
 
     src.p(sigInput);
     src.n(gnd);
@@ -46,7 +46,7 @@ int sc_main (int argc, char* argv[])
     sca_trace(eln, sigOutput, "sigOuput");
 
 
-    sc_start(20, sc_core::SC_MS);
+    sc_start(20, sc_core::SC_US);
     sca_util::sca_close_vcd_trace_file(eln);
 
 
