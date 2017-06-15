@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Tue May 30 05:40:55 2017
+[*]
+[dumpfile] "/home/roba/perso/github/systemc/examples-ams/voltage-divider-de_rswitch/voltage-divider-eln.vcd"
+[dumpfile_mtime] "Tue May 30 05:40:06 2017"
+[dumpfile_size] 172514
+[savefile] "/home/roba/perso/github/systemc/examples-ams/voltage-divider-de_rswitch/gtkwave.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-32.137486 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 204
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 157
+@10028
+SystemC_AMS.signal
+@20000
+-
+-
+@10028
+SystemC_AMS.signalInput
+@20001
+-
+@20000
+-
+[pattern_trace] 1
+[pattern_trace] 0
