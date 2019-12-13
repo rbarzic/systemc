@@ -124,6 +124,7 @@ struct Target: sc_module
       if (phase == internal_ph)
       {
         // Execute the read or write commands
+	// RB: We are coming from the event queue
 
         tlm::tlm_command cmd = trans.get_command();
         sc_dt::uint64    adr = trans.get_address();
