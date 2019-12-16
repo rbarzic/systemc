@@ -2,3 +2,4 @@
 *.vcd
 sim
 *.vcd
+/examples/cmake_example/build/
