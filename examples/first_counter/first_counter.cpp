@@ -13,6 +13,9 @@ SC_MODULE (first_counter) {
   sc_in<bool>   reset ;      // active high, synchronous Reset input
   sc_in<bool>   enable;      // Active high enable signal for counter
   sc_out<sc_uint<4> > counter_out; // 4 bit vector output of the counter
+  sc_out<bool > pulse; // 4 bit vector output of the counter
+
+  // sc_out<sc_uint<4> > counter_out; // 4 bit vector output of the counter
 
   //------------Local Variables Here---------------------
   sc_uint<4>	count;
@@ -25,12 +28,17 @@ SC_MODULE (first_counter) {
     if (reset.read() == 1) {
       count =  0;
       counter_out.write(count);
+      pulse.write(0);
     // If enable is active, then we increment the counter
     } else if (enable.read() == 1) {
       count = count + 1;
       counter_out.write(count);
       cout<<"@" << sc_time_stamp() <<" :: Incremented Counter "
         <<counter_out.read()<<endl;
+      pulse.write(1);
+      sc_start(1,SC_NS);
+      pulse.write(0);
+
     }
   } // End of function incr_count
 

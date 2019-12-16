@@ -1,5 +1,6 @@
 CXX=g++
 CXX_OPTS?=-std=c++11
+
 comp:
 	$(CXX) $(CXX_OPTS) -I. -I$(SYSTEMC_HOME)/include -L. -L$(SYSTEMC_HOME)/lib-linux64 -o sim main.cpp  -lsystemc -lm
 run:

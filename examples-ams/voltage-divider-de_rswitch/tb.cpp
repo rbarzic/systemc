@@ -17,6 +17,9 @@ int sc_main (int argc, char* argv[])
     sca_eln::sca_node sigOutput;
     sca_eln::sca_node_ref gnd;
 
+
+
+
     sc_core::sc_signal<double> ctrl;
 
     sca_eln::sca_vsource src("src",0.0, 0.0, 3.3, 1e3);

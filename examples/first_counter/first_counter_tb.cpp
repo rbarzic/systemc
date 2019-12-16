@@ -5,6 +5,7 @@ int sc_main (int argc, char* argv[]) {
   sc_signal<bool>   clock;
   sc_signal<bool>   reset;
   sc_signal<bool>   enable;
+  sc_signal<bool>   pulse;
   sc_signal<sc_uint<4> > counter_out;
   int i = 0;
   // Connect the DUT
@@ -13,6 +14,7 @@ int sc_main (int argc, char* argv[]) {
     counter.reset(reset);
     counter.enable(enable);
     counter.counter_out(counter_out);
+    counter.pulse(pulse);
 
   sc_start();
 
@@ -24,6 +26,7 @@ int sc_main (int argc, char* argv[]) {
   sc_trace(wf, reset, "reset");
   sc_trace(wf, enable, "enable");
   sc_trace(wf, counter_out, "count");
+  sc_trace(wf, pulse, "pulse");
 
   // Initialize all variables
   reset = 0;       // initial value of reset
